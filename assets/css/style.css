@@ -1,0 +1,149 @@
+
+body {
+    width: 960px;
+    height: 800px;
+    font-size: 12px;
+    margin-left: 160px;
+}
+
+#container {
+    width: 450px;
+    height:230px;
+    font-size: 15px;
+    color: rgb(71, 69, 69);
+    background-color: rgb(238, 194, 137);
+    border-style: solid;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    border-right-color: black;
+}
+ h1 {
+    color: white;
+    background-color: rgb(216, 78, 89);
+    width: 375px;
+    height: 50px; 
+     
+ }
+
+
+h3 {
+    width: 250px;
+    height: 75x; 
+    font-size: 25px;
+    text-align: center;
+    border-style: solid; 
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-right-color: purple;
+}
+
+h4 {
+    width: 350px;
+    height: 100px; 
+    text-align: center;
+    border-style: solid; 
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-right-color: purple;
+}
+h5 {
+    width: 250px;
+    height: 60px; 
+    border-style: solid; 
+}
+
+
+
+#Wins {
+   
+    text-align: center;
+    font-size: 15px;
+   
+    color : green; 
+    
+}
+
+
+#Losses {
+    
+    text-align: center;
+    font-size: 15px;
+     
+    color : blue; 
+}
+
+#card-header {
+    width: 550px;
+    height: 50px; 
+    text-align: center;
+    border-style: solid; 
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-right-color: purple; 
+}
+
+#card-body {
+    width: 750px;
+    height: 100px; 
+    text-align: center;
+    border-style: solid; 
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-right-color: purple; 
+}
+#button1 {
+    background-image: url( "../../images/pink.jpg" );
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
+
+#button2 {
+    background-image: url( "../../images/blue.jpg" );
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+    
+}
+#button3 {
+    background-image: url( "../../images/green.jpg" );
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
+#button4 {
+    background-image: url( "../../images/black.jpg" );
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
+#smallcontainer{ 
+    width: 450px;
+    height:50px; 
+    color: white;
+    background-color: rgb(185, 240, 185);
+    text-align: center;
+    border-style: solid; 
+    border-top-color: purple;
+    border-left-color: purple;
+    border-right-color: purple;
+}
+ 
+#finalTotal {
+    width: 450px;
+    height: 50px; 
+    color: white;
+    background-color: rgb(75, 161, 75);
+    text-align: center;
+    font-size: 30px;
+    border-style: solid; 
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-right-color: purple;
+}

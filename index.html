@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+    <title>Crystal Collector</title>
+</head>
+<body>
+    <h1>Crystal Collector</h1>
+    
+    <div id = container>
+    <p> You will be given a radom number at the next start of the game</p>
+    <p>There are four crystal below. By cicking on a crystal you will add a specific amount of point to your total score</p>
+    <p>You win the game by matching your total score to radom number, you lose the game if your total score goes above the radom number</p>
+    <p>The value of each crystal is hidden from you until you click on it</p>
+    </div>
+     
+
+    <h3>Number To Match:
+        <div id="randomNumber"></div>
+    
+    </h3>
+
+    <h5>
+        <p id="Wins"></p>
+        <p id="Losses"></p>
+    </h5>
+        
+       
+    
+   
+     
+    <!--  <h5 class="card-header">Click on the crystal below  to start the game</h5> -->
+        <div class="card-body">
+            <button id="button1" ><span>Pink</span></button>
+            <button id="button2" ><span>Blue</span></button>
+            <button id="button3" ><span>Green</span></button>
+            <button id="button4" ><span>Black</span></button>
+  
+        </div>
+        
+        <h4>
+                <div id ="smallcontainer">Your total score is: </div>
+                <div id ="finalTotal"></div>
+        </h4>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="JavaScript/game.js"></script>
+</body>
+
+
+
+
+</html>
